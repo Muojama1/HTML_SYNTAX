@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact form</title>
+
+</head>
+<body>
+    <h1>Contactme</h1>
+
+
+    <form action="example/com/api" method="post">
+        <div>
+
+            <label for="firstname">Fisrt Name:</label>
+            <input type="text" placeholder="Enter first Name" id="firstName">
+
+            <div>
+                <div>
+           
+                    <label for="password">Password:</label>
+                    <input type="password" placeholder="Password" id="password">
+
+                <div>
+                    <label for="lastname">Last name:</label>
+                    <input type="text" placeholder="Enter last name" id="lastName">
+                </div>
+                <div>
+                    <label for="email">Email address</label>
+                    <input type="text" placeholder="Enter email" id="email" required>
+                </div>
+                <div>
+                    <h2>What services do you need</h2>
+
+                    <label for="webdesign">Web Design:</label>
+                    <input type="checkbox" id="webdesign">
+
+                    <label for="mobileapp">Mobile App:</label>
+                    <input type="checkbox" id="mobileapp">
+
+                    <label for="logodesign">Logo Design:</label>
+                    <input type="checkbox" id="logodesign">
+                </div>
+
+                <div>
+                    <h2>Method of Payment</h2>
+                    <label for="cash">Cash:</label>
+                    <input type="radio" id="cash" name="payment">
+                    <label for="transfer">Transfer:</label>
+                    <input type="radio" id="transfer" name="payment">
+                </div>
+
+                <div>
+                    <h2>Upload an image</h2>
+                    <input type="file" accept="image/jpg">
+                </div>
+
+                <hr>
+
+
+
+                <p>Content</p>
+
+                <div>
+                    <h2>Enter message</h2>
+                    <textarea name="" id="" cols="30" rows="10"></textarea>
+                </div>
+
+                <button type="submit">Submit</button>
+            </form>
+        
+                <div>
+                    <h2>Connect with me</h2>
+                    <a href="example.com" target="_blank">Twitter</a>
+                    <a href="example.com" target="_blank">Instagram</a>
+                </div>
+</body>
+</html>

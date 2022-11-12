@@ -1,0 +1,29 @@
+/* h1 {   
+    font-size: 18px;
+    text-align: center;
+ }  */
+div {
+    font-size: 14px;
+    background-color: white;
+}
+div.dotted {
+    color: green;
+    padding: 40px;
+    border: 5px;
+    border-style: dotted;
+    margin: 40px;
+}
+div.groove {
+    color: red;
+    margin: 40px;
+    border: 5px;
+    border-style: groove;
+    padding: 40px;
+}
+div.dashed {
+    color: blue;
+    margin: 40px;
+    border: 5px;
+    border-style: dashed;
+    padding: 40px;
+}
